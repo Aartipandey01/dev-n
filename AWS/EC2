@@ -23,3 +23,6 @@ Select Next: Add Tags. You can add custom tags to your instance to help you cate
 Select Next: Configure Security Group. You can associate a security group with your instance to allow or block traffic to the instance.
 Select Review and Launch. Review the instance details.
 Select Previous to return to a previous screen to make changes. Select Launch when you are ready to launch the instance.
+
+Select an existing key pair or create a new key pair, select the acknowledge agreement box, and then choose Launch Instances.
+Choose View Instances to check the status of your instance.
