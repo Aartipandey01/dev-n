@@ -7,3 +7,10 @@ To launch a new EC2 instance from an AMI, do the following:
 
 Open the EC2 console.
 Note: Be sure to select the AWS Region that you want to launch the instance in.
+
+From the navigation bar, choose AMIs.
+Find the AMI that you want to use to launch a new instance. To begin, open the menu next to the search bar, and then choose one of the following:
+If the AMI that you’re using is one that you created, select Owned by me.
+If the AMI that you’re using is a public AMI, select Public images.
+If the AMI that you’re using is a private image that someone else shared with you, select Private images.
+Note: The search bar automatically provides filtering options as well as automatically matching AMI IDs.
