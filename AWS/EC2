@@ -19,3 +19,7 @@ Select the AMI, and then choose Launch.
 Choose an instance type, and then choose Next: Configure Instance Details. Optionally select configuration details, such as associating an IAM role with the instance.
 Select Next: Add Storage. You can use the default root volume type, or select a new type from the Volume Type dropdown list. Select Add New Volume if you want to add additional storage to your instance.
 
+Select Next: Add Tags. You can add custom tags to your instance to help you categorize your resources.
+Select Next: Configure Security Group. You can associate a security group with your instance to allow or block traffic to the instance.
+Select Review and Launch. Review the instance details.
+Select Previous to return to a previous screen to make changes. Select Launch when you are ready to launch the instance.
