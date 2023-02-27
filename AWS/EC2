@@ -14,3 +14,8 @@ If the AMI that you’re using is one that you created, select Owned by me.
 If the AMI that you’re using is a public AMI, select Public images.
 If the AMI that you’re using is a private image that someone else shared with you, select Private images.
 Note: The search bar automatically provides filtering options as well as automatically matching AMI IDs.
+
+Select the AMI, and then choose Launch.
+Choose an instance type, and then choose Next: Configure Instance Details. Optionally select configuration details, such as associating an IAM role with the instance.
+Select Next: Add Storage. You can use the default root volume type, or select a new type from the Volume Type dropdown list. Select Add New Volume if you want to add additional storage to your instance.
+
