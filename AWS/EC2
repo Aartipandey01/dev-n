@@ -26,3 +26,7 @@ Select Previous to return to a previous screen to make changes. Select Launch wh
 
 Select an existing key pair or create a new key pair, select the acknowledge agreement box, and then choose Launch Instances.
 Choose View Instances to check the status of your instance.
+
+
+~~ when you are connect with ssh key and you found an error like public key denited than you must have to check AMI id like machine name ubuntu or something like that correct it and connect with ssh key ..
+ssh -i aws.pem *ubuntu@15.206.164.166 
