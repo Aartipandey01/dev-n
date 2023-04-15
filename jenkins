@@ -7,3 +7,7 @@
 After running the above command, try installing the Jenkins package again using the dpkg command:
 
 ~~  sudo dpkg -i jenkins_2.289.1_all.deb
+
+## Once the installation completes successfully, you can start Jenkins using the following command:
+
+~~ sudo systemctl start jenkins
