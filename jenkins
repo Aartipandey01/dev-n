@@ -11,3 +11,6 @@ After running the above command, try installing the Jenkins package again using 
 ## Once the installation completes successfully, you can start Jenkins using the following command:
 
 ~~ sudo systemctl start jenkins
+ 
+ ## And then check the status of Jenkins with:
+ ~~ sudo systemctl status jenkins
