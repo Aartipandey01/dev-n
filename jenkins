@@ -1,0 +1,9 @@
+## It looks like there are some missing dependencies for the Jenkins package you downloaded. You can try installing the missing dependencies by running the following command:
+
+~~ sudo apt-get install -f
+
+## This command will attempt to install any missing dependencies and fix any broken dependencies.
+
+After running the above command, try installing the Jenkins package again using the dpkg command:
+
+~~  sudo dpkg -i jenkins_2.289.1_all.deb
