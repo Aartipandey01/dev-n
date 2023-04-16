@@ -1,1 +1,43 @@
+## Update the system packages:
+
+sudo apt-get update
+sudo apt-get upgrade
+
+## Install Docker:
+
+sudo apt-get install docker.io
+
+## Install Kubernetes tools:
+
+sudo apt-get install -y apt-transport-https curl
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
+sudo apt-get update
+sudo apt-get install -y kubelet kubeadm kubectl
+sudo apt-mark hold kubelet kubeadm kubectl
+
+
+## Disable swap: 
+
+sudo swapoff -a
+sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
+
+## Initialize the Kubernetes cluster: 
+
+sudo kubeadm init --pod-network-cidr=10.244.0.0/16
+
+## Set up the Kubernetes configuration for the current user: 
+
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+ 
+## Install a networking solution for Kubernetes:
+
+sudo kubectl apply -f https://docs.projectcalico.org/v3.20/manifests/calico.yaml
+
+
+
+
+
 
