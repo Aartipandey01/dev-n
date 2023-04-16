@@ -84,3 +84,8 @@ apt-get install kubectl
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
 apt-get update
 Once installed, check if Cube Admin is installed properly by typing "cube-admin version." Cube Admin is installed in the system using apt command, which is the package manager used for Ubuntu.
+
+Creating and Joining Nodes in a Cluster
+This session is focused on creating and joining nodes in a cluster. The first step is to copy the join token command, ensuring that both Communities and Docker are installed. Once the join command is pasted and entered, the node will join the cluster, and the command "kubectl get nodes" will display the joined nodes.
+
+Kubernetes is generally used for deployment purposes, allowing for multiple pods to easily handle features such as load balancing and self-healing. The session was more theory-based, but a homework assignment is given to learn more about Communities and Docker. The next session will aim to create a cluster and launch an application within it to demonstrate Kubernetes.
