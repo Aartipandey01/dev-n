@@ -6,3 +6,8 @@
  This is an important question, but before we dive into that, we have to understand Docker because it's a prerequisite for Kubernetes.
  Let me know in the chat if you have any questions or if you are not familiar with Docker or Kubernetes so I can adjust my teaching accordingly.
  
+## What is Docker?
+
+Docker is a container-based software technology used in DevOps. It's important to note that Docker is not exactly like Kubernetes.
+They are different but related technologies.
+
