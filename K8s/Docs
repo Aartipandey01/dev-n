@@ -30,3 +30,8 @@ If you're looking to understand Docker, you need to understand containerization 
 Essentially, containerization solves compatibility issues that can arise from different devices being involved in software development and delivery.
 The developer might test their code on one laptop with certain tools, while the tester uses another, and the production environment is on a server.
 Making sure the code behaves the same way in all of these environments can be tedious and difficult.
+
+This is where containers come in. Think of containers as virtual boxes that can hold all the necessary parts of an application in a single, deployable unit. Using containers instead of directly pushing the code to different devices makes the building and deployment process easier and more consistent. Docker is a containerization tool, which allows you to secure the application in a container and send it for deployment.
+
+Containers act like virtual machines, but aren't exactly the same thing
+Docker swarm is an open-source orchestrator tool that can help implement microservices architecture
