@@ -47,3 +47,13 @@ Some questions were asked, such as which service is used in AWS, and it is usual
 Windows Server was used as an example of how to use Windows on a container to install different tools or software. Kubernetes is a robust tool that provides stability and reduces downtime, making it a better option than Docker when it comes to security. The software uses a microservices architecture and storage distribution or handling of secrets.
 
 Storage distribution refers to the effect on the system's storage, and availability of volumes can quickly resolve issues. It is important not to store data in the system and to utilize volumes to share data between containers.
+
+
+## Kubernetes Architecture Overview
+
+Kubernetes is used to manage three services through a community designed and built infrastructure. 
+The architecture is organized into pods, which contain multiple containers running simultaneously.
+It is important to not store data within containers and instead direct it to external volumes. 
+Kubernetes can manage the sharing of these volumes across containers. Kubernetes is also responsible for storage distribution, secret handling, 
+healing, load balancing, and easy scaling. Replicas of features are automatically deployed in case of downtime or failure. 
+Kubernetes also comes with easy installation and setup.
