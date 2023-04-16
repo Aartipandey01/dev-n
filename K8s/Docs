@@ -67,3 +67,20 @@ Features/Services
 Replicas automatically installed for easy recovery
 Load balancing distributes requests coming in from outside the service
 Easy scaling allows for increasing the number of servers
+
+We are using two CPUs and 4GB memory for Kubernetes, as it needs at least two CPUs. We are using Ubuntu Server and accessing the servers through a client called Putty. We have two nodes within our cluster communities cluster, which allows for multiple pods on those servers.
+
+To update our instance, we use the apt-get update command to get root access by using the su command. We use a private key to access the servers, but you can also use any bash terminal or PowerShell directly. If you use a public key, make sure you are using the correct key to access your private key.
+
+To work with Docker, we need to install app transport https and curl packages, in addition to Docker itself. We also need to get a key that allows us to access the repository where Kubernetes is located. First, we get an "ok" and then install Kubernetes itself. We also need a signing key for Kubernetes.
+
+Curl is used to get URLs, and we will have it in our system. We will not directly type in the key, but use the app transport to install it. After installing Docker using the command line, we will use the tool for Docker. Using a shell script is an easy method to copy-paste the commands you want to execute for running communities.
+
+You can run communities on laptops with 4GB RAM, and the script will give you a good idea of how to run it. The following commands need to be executed to install and add the communities to the community repository:
+
+apt-get install cube-admin cube-led and cube-ctl
+apt-add-repository "deb http://apt.kubernetes.io/ kubernetes-xenial main"
+apt-get install kubectl
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+apt-get update
+Once installed, check if Cube Admin is installed properly by typing "cube-admin version." Cube Admin is installed in the system using apt command, which is the package manager used for Ubuntu.
