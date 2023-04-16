@@ -23,3 +23,10 @@ The aim is to ensure that the code goes to the user without any issues.
 
 In software development, communities are often used for a specific purpose. Communities help to ensure that the code goes out to the users without any issues.
 They also help to create a sense of empathy and understanding within teams, which can go a long way in making the development process smoother and more efficient.
+
+## Understanding Containerization and Docker
+
+If you're looking to understand Docker, you need to understand containerization first.
+Essentially, containerization solves compatibility issues that can arise from different devices being involved in software development and delivery.
+The developer might test their code on one laptop with certain tools, while the tester uses another, and the production environment is on a server.
+Making sure the code behaves the same way in all of these environments can be tedious and difficult.
