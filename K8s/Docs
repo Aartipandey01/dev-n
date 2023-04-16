@@ -35,3 +35,15 @@ This is where containers come in. Think of containers as virtual boxes that can 
 
 Containers act like virtual machines, but aren't exactly the same thing
 Docker swarm is an open-source orchestrator tool that can help implement microservices architecture
+
+Microservices are used to manage multiple isolated containers, and Docker is a tool for creating and managing those containers. However, to efficiently manage those containers, orchestration tools like Kubernetes are needed. Images can be used as blueprints to define how the container will be run, and Ubuntu can be specified as the operating system. Kubernetes is a tool for monitoring Docker and offers dashboards for managing different aspects of microservices. Companies might use Docker Swarm for prototype reasons, but Kubernetes is generally preferred for orchestration.
+
+Feel free to ask any questions, and we'll be happy to answer them. Raj asked if the video could be uploaded to YouTube, and we'll upload the live session. We'll also offer recordings of live sessions from September and December, and we welcome any song recommendations. Thanks for being a subscriber since 2013!
+
+Virtual machines are essentially machines that are virtual, as the name suggests. They do not interact with the current Windows system, so if, for example, Ubuntu is installed in a virtual machine, it will run separately and will not directly affect the system. If you are not ready to watch the video now, you can subscribe and come back later to check on your subscription feed to watch the live sessions, which will help you out.
+
+Some questions were asked, such as which service is used in AWS, and it is usually EKS. Different parameter values in each environment can be resolved using environment variables. AWS has many different services being developed by different teams. Kubernetes is an open source container orchestration tool that manages multiple containers and environments, while Docker Swarm is used primarily for containerization.
+
+Windows Server was used as an example of how to use Windows on a container to install different tools or software. Kubernetes is a robust tool that provides stability and reduces downtime, making it a better option than Docker when it comes to security. The software uses a microservices architecture and storage distribution or handling of secrets.
+
+Storage distribution refers to the effect on the system's storage, and availability of volumes can quickly resolve issues. It is important not to store data in the system and to utilize volumes to share data between containers.
