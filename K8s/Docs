@@ -57,3 +57,13 @@ It is important to not store data within containers and instead direct it to ext
 Kubernetes can manage the sharing of these volumes across containers. Kubernetes is also responsible for storage distribution, secret handling, 
 healing, load balancing, and easy scaling. Replicas of features are automatically deployed in case of downtime or failure. 
 Kubernetes also comes with easy installation and setup.
+
+## Pods
+Pods represent services
+Containers within a pod are managed for efficiency purposes
+Data should not be stored within containers (use external volumes instead)
+Kubernetes manages sharing volumes among containers
+Features/Services
+Replicas automatically installed for easy recovery
+Load balancing distributes requests coming in from outside the service
+Easy scaling allows for increasing the number of servers
