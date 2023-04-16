@@ -11,3 +11,10 @@
 Docker is a container-based software technology used in DevOps. It's important to note that Docker is not exactly like Kubernetes.
 They are different but related technologies.
 
+## Why Do We Need Communities in Software Development?
+
+Communities are used extensively in DevOps, especially in software development where profits need to be made.
+Kubernetes is commonly used for deployment, which is where the software goes to the end-users, customers or testers.
+The tester takes this code and tests it for various things such as requirement testing and build process testing. 
+The aim is to ensure that the code goes to the user without any issues.
+
