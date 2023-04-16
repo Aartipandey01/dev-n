@@ -1,1 +1,8 @@
 ## Intro to Kubernetes | Container Tools For Beginners | Orchestration Tools 
+
+# Kubernetes: Understanding Communities and Software Development
+
+ To understand Kubernetes, we first need to understand how software development works. Why do we need communities in software development?
+ This is an important question, but before we dive into that, we have to understand Docker because it's a prerequisite for Kubernetes.
+ Let me know in the chat if you have any questions or if you are not familiar with Docker or Kubernetes so I can adjust my teaching accordingly.
+ 
