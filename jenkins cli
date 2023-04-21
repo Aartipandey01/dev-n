@@ -1,0 +1,51 @@
+ 1  exit
+    2  scp -r ./* ubuntu@54.152.139.190:~/website/
+    3  exit $?
+    4  scp -r ./* ubuntu@54.152.139.190:~/website/
+    5  exit $?
+    6  cd /var/lib/jenkins/workspace/pipeline
+    7  scp -r ./* ubuntu@54.152.139.190:~/website/
+    8  exit $?
+    9  cd /var/lib/jenkins/workspace/pipeline
+   10  scp -r ./* ubuntu@54.152.139.190:~/website/
+   11  exit $?
+   12  cd /var/lib/jenkins/workspace/pipeline
+   13  scp -r ./* ubuntu@54.152.139.190:~/website/
+   14  exit $?
+   15  cd ~/website/
+   16  docker build -t port .
+   17  Docker run -d -p 80:80 --name PORT port
+   18  exit $?
+   19  cd /var/lib/jenkins/workspace/pipeline
+   20  scp -r ./* ubuntu@54.152.139.190:~/website/
+   21  exit $?
+   22  cd /var/lib/jenkins/workspace/pipeline
+   23  scp -r ./* ubuntu@54.152.139.190:~/website/
+   24  exit $?
+   25  cd /var/lib/jenkins/workspace/pipeline
+   26  scp -r ./* ubuntu@54.152.139.190:~/website/
+   27  exit $?
+   28  cd /var/lib/jenkins/workspace/pipeline
+   29  scp -r ./* ubuntu@54.152.139.190:~/website/
+   30  exit $?
+   31  cd /var/lib/jenkins/workspace/pipeline
+   32  scp -r ./* ubuntu@54.152.139.190:~/website/
+   33  exit $?
+   34  cd /var/lib/jenkins/workspace/pipeline
+   35  scp -r ./* ubuntu@54.152.139.190:~/website/
+   36  exit $?
+   37  sudo hostnamectl
+   38  sudo hostnamectl set-hostname jenkins
+   39  /bin/bash
+   40  sudo apt update
+   41  sudo apt install openjdk-11-jre
+   42  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+   43  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+   44  sudo apt-get update
+   45  sudo apt-get install jenkins
+   46  systemctl status jenkins
+   47  cd /var/lib/jenkins/workspace/
+   48  ls
+   49  cd pipeline
+   50  ls
+   51  pwd
