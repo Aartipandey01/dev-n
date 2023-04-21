@@ -1,0 +1,52 @@
+   1  exit
+    2  exit\
+    3  exit
+    4  cd ~/website/
+    5  docker build -t port .
+    6  Docker run -d -p 80:80 --name PORT port
+    7  exit $?
+    8  cd ~/website/
+    9  docker build -t port .
+   10  docker run -d -p 80:80 --name PORT port
+   11  exit $?
+   12  cd ~/website/
+   13  docker build -t port .
+   14  docker run -d -p 80:80 --name PORT port
+   15  exit $?
+   16  docker container stop PORT
+   17  docker conatiner remove PORT  
+   18  cd ~/website/
+   19  docker build -t port .
+   20  docker run -d -p 80:80 --name PORT port
+   21  exit $?
+   22  docker container stop PORT
+   23  docker container remove PORT  
+   24  cd ~/website/
+   25  docker build -t port .
+   26  docker run -d -p 80:80 --name PORT port
+   27  exit $?
+   28  docker container stop PORT
+   29  docker container remove PORT  
+   30  cd ~/website/
+   31  docker build -t port .
+   32  docker run -d -p 80:80 --name PORT port
+   33  exit $?
+   34  sudo apt-get update
+   35  sudo apt-get install     ca-certificates     curl     gnupg
+   36  sudo install -m 0755 -d /etc/apt/keyrings
+   37  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+   38  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+   39  echo   "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+   40    "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   41  sudo apt-get update
+   42  sudo hostnamectl set-hostname docker
+   43  /bin/bash
+   44  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   45  sudo usernod -aG docker ubuntu
+   46  sudo usermod -aG docker ubuntu
+   47  newgrp docker
+   48  docker ps
+   49  mkdir websitye
+   50  rm -rf websitye/
+   51  mkdir website
+   52  sudo su
