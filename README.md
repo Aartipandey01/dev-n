@@ -94,7 +94,7 @@ We welcome contributions from the community and appreciate your support in impro
 
 Install the project dependencies by running the following command in the terminal:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ## Ensure CI passes
 
