@@ -111,6 +111,10 @@ Install the project dependencies by running the following command in the termina
 
 ## Ensure CI passes
 
+<p align="center">
+  <img src="https://img.shields.io/badge/CI-Passing-brightgreen" alt="CI Passing">
+</p>
+
 Before merging any contributions or changes, it's essential to ensure that the continuous integration (CI) tests pass successfully. CI helps maintain code quality standards and prevents the introduction of regressions. To ensure a smooth integration process, follow these steps:
 
 • Make your desired changes or additions to the codebase.
