@@ -76,13 +76,13 @@ Click the "Open in Gitpod" button above or use the following link:[Open in Gitpo
 
 You can use GitHub Codespaces to develop this project in the cloud.
 
-Click on the "Code" button.
+• Click on the "Code" button.
 
-Select "Open with Codespaces" from the dropdown menu.
+• Select "Open with Codespaces" from the dropdown menu.
 
-Choose the appropriate Codespace configuration.
+• Choose the appropriate Codespace configuration.
 
-Wait for the environment to be provisioned.
+• Wait for the environment to be provisioned.
 
 Once the environment is ready, you can start working on the project.
 
@@ -100,24 +100,24 @@ pip install -r requirements.txt
 
 Before merging any contributions or changes, it's essential to ensure that the continuous integration (CI) tests pass successfully. CI helps maintain code quality standards and prevents the introduction of regressions. To ensure a smooth integration process, follow these steps:
 
-Make your desired changes or additions to the codebase.
-Run the relevant tests locally to verify that your changes are functioning as expected.
-Push your changes to the branch you're working on.
-The CI system will automatically run tests and checks on your code.
-Monitor the CI build status to ensure that all tests pass successfully.
-If the CI build fails, review the error messages and make the necessary fixes.
-Repeat steps 3-6 until the CI build passes successfully.
-Once the CI build is successful, you can proceed with merging your changes into the main WarpSQL repository.
+• Make your desired changes or additions to the codebase.
+• Run the relevant tests locally to verify that your changes are functioning as expected.
+• Push your changes to the branch you're working on.
+• The CI system will automatically run tests and checks on your code.
+• Monitor the CI build status to ensure that all tests pass successfully.
+• If the CI build fails, review the error messages and make the necessary fixes.
+• Repeat steps 3-6 until the CI build passes successfully.
+• Once the CI build is successful, you can proceed with merging your changes into the main WarpSQL repository.
 
 ## Publish the Project
 
 To publish the WarpSQL project, follow the guidelines below:
 
-Document the release process: Provide clear instructions on how to release new versions of the project. This may include steps to follow, release branches or tags, and any necessary checks or validations.
+• Document the release process: Provide clear instructions on how to release new versions of the project. This may include steps to follow, release branches or tags, and any necessary checks or validations.
 
-Versioning conventions: Define the versioning scheme used for the project. It could be semantic versioning (e.g., MAJOR.MINOR.PATCH) or any other convention that aligns with the project's needs.
+• Versioning conventions: Define the versioning scheme used for the project. It could be semantic versioning (e.g., MAJOR.MINOR.PATCH) or any other convention that aligns with the project's needs.
 
-Release notes: Prepare release notes for each new version, highlighting the changes, bug fixes, and new features included in the release. This helps users understand what to expect when upgrading to a new version.
+• Release notes: Prepare release notes for each new version, highlighting the changes, bug fixes, and new features included in the release. This helps users understand what to expect when upgrading to a new version.
 
-Distribution and deployment: Specify how the project should be distributed or deployed. If there are specific packages, containers, or deployment configurations, provide relevant documentation or instructions.
+• Distribution and deployment: Specify how the project should be distributed or deployed. If there are specific packages, containers, or deployment configurations, provide relevant documentation or instructions.
 
