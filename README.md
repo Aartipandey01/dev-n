@@ -79,6 +79,9 @@ Click the "Open in Gitpod" button above or use the following link:[Open in Gitpo
 
 ## Development with GitHub Codespaces
 
+[![GitHub Codespaces](https://img.shields.io/badge/GitHub-Codespaces-blue?logo=github)](https://github.com/features/codespaces)
+
+
 You can use GitHub Codespaces to develop this project in the cloud.
 
 • Click on the "Code" button.
