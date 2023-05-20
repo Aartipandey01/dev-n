@@ -94,7 +94,8 @@ Commit and push your changes to your forked repository.
 Create a pull request from your forked repository to the main WarpSQL repository.
 We welcome contributions from the community and appreciate your support in improving WarpSQL!
 
-Development with GitHub Codespaces
+## Development with GitHub Codespaces
+
 You can use GitHub Codespaces to develop this project in the cloud.
 
 Click on the "Code" button.
