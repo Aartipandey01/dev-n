@@ -60,12 +60,12 @@ You can contribute to the development of WarpSQL using both Gitpod and Codespace
 
 Click the "Open in Gitpod" button above or use the following link:[Open in Gitpod](https://gitpod.io/new/#https://github.com/ChakshuGautam/postgres-tsdb-vector-docker)
 
-Wait for the Gitpod environment to be created and initialized.
-Once the environment is ready, you can start working on the project.
-Make your desired changes or additions.
-Test your changes and ensure they meet the project's guidelines.
-Commit and push your changes to your forked repository.
-Create a pull request from your forked repository to the main WarpSQL repository.
+• Wait for the Gitpod environment to be created and initialized.
+• Once the environment is ready, you can start working on the project.
+• Make your desired changes or additions.
+• Test your changes and ensure they meet the project's guidelines.
+• Commit and push your changes to your forked repository.
+• Create a pull request from your forked repository to the main WarpSQL repository.
 
 ## Development with GitHub Codespaces
 
