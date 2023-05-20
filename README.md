@@ -61,7 +61,8 @@ You can contribute to the development of WarpSQL using both Gitpod and Codespace
 
 Click the "Open in Gitpod" button above or use the following link:[Open in Gitpod](https://gitpod.io/new/#https://github.com/ChakshuGautam/postgres-tsdb-vector-docker)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ChakshuGautam/postgres-tsdb-vector-docker)
+[![Open in Gitpod](https://gitpod.io/button/icon.svg)](https://gitpod.io/#https://github.com/ChakshuGautam/postgres-tsdb-vector-docker)
+
 
 
 • Wait for the Gitpod environment to be created and initialized.
