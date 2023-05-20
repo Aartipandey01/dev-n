@@ -49,7 +49,8 @@ Extensibility: While WarpSQL already supports a range of extensions, it aims to 
 Get started with WarpSQL today and experience the convenience of a comprehensive Postgres solution.
 
 
-Development with GitHub Codespaces
+## Development with GitHub Codespaces
+
 You can use GitHub Codespaces to develop this project in the cloud.
 
 Click on the "Code" button.
