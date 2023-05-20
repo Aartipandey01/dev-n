@@ -1,17 +1,14 @@
-<p align="center">
-  <img align="center" width="280" height="280" src="./icon.jpeg"/>
-</p>
-
-<h1 align="center">WarpSQL</h1>
+<p align="center"><img align="center" width="280" height="280" src="./icon.jpeg"/></p>
+<h1 align="center">WarpSQL</h3>
 <hr>
 Opinionated extensions to Postgres packaged as a single docker deployment. Why install 10 DBs when you can have everything at once (maybe not everything).
 
 Certified as Indie Hacker's best friend!!!
 
-## Test on GitPod
+### Test on GitPod
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ChakshuGautam/postgres-tsdb-vector-docker)
 
-## Current and Future Supported Extensions
+### Current and future supported extensions
 
 - [x] [PgVector](https://github.com/pgvector/pgvector)
 - [x] [TimescaleDB](https://github.com/timescale/timescaledb)
@@ -19,11 +16,11 @@ Certified as Indie Hacker's best friend!!!
 - [x] [PostGIS](https://postgis.net)
 - [ ] [ZomboDB](https://github.com/zombodb/zombodb)
 - [ ] [PLV8](https://github.com/plv8/plv8)
-- [ ] [PgRepack](https://github.com/reorg/pg_repack)
+- [ ] [Pg Repack](https://github.com/reorg/pg_repack)
 
 Bootstrapped from [TimescaleDB](https://github.com/timescale/timescaledb-docker)
 
-## Usage with Compose
+### Usage with Compose
 
 ```yaml
 version: '3.6'
@@ -40,24 +37,20 @@ services:
       POSTGRES_USER: warpSQLUser
       POSTGRES_PASSWORD: warpSQLPass
 ```
-## Contribution
 
-Here's how you can get started:
+WarpSQL is a powerful solution that provides opinionated extensions to Postgres, conveniently packaged as a single Docker deployment. It eliminates the need to install multiple separate databases by offering a comprehensive set of features in one place (although not everything, as some features might not be included).
 
-Ensure that the CI tests pass by running them locally.
+By utilizing WarpSQL, you can benefit from the following:
 
-Make any necessary changes or improvements to the codebase.
+Simplified setup: With WarpSQL, you can have all the necessary extensions for your Postgres database in one go, saving you time and effort.
+Seamless integration: WarpSQL includes popular extensions like PgVector, TimescaleDB, Citus, and PostGIS, allowing you to leverage their functionality seamlessly.
+Enhanced performance: The included extensions are carefully selected to optimize database performance, enabling you to work efficiently with large datasets.
+Extensibility: While WarpSQL already supports a range of extensions, it aims to expand its offerings to include even more powerful tools in the future, such as ZomboDB, PLV8, and Pg Repack.
+Get started with WarpSQL today and experience the convenience of a comprehensive Postgres solution.
 
-Test your changes to ensure they work as expected.
-
-Commit your changes to a new branch or forked repository.
-
-Submit a pull request (PR) with a descriptive title and mention the issue number (#28) in the PR description to link it to the issue.
-
-Wait for project maintainers or other contributors to review your PR. Address any feedback or suggestions they provide, if necessary.
 
 Development with GitHub Codespaces
-You can use GitHub Codespaces to develop this project in the cloud. Here's how:
+You can use GitHub Codespaces to develop this project in the cloud.
 
 Click on the "Code" button.
 
