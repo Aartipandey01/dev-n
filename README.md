@@ -49,24 +49,6 @@ Extensibility: While WarpSQL already supports a range of extensions, it aims to 
 Get started with WarpSQL today and experience the convenience of a comprehensive Postgres solution.
 
 
-## Development with GitHub Codespaces
-
-You can use GitHub Codespaces to develop this project in the cloud.
-
-Click on the "Code" button.
-
-Select "Open with Codespaces" from the dropdown menu.
-
-Choose the appropriate Codespace configuration.
-
-Wait for the environment to be provisioned.
-
-Once the environment is ready, you can start working on the project.
-
-Install the project dependencies by running the following command in the terminal:
-
-pip install -r requirements.txt
-
 ## Contribution
 
 You can contribute to the development of WarpSQL using both Gitpod and Codespaces. Follow the steps below to set up your development environment and make contributions:
@@ -80,19 +62,6 @@ Make your desired changes or additions.
 Test your changes and ensure they meet the project's guidelines.
 Commit and push your changes to your forked repository.
 Create a pull request from your forked repository to the main WarpSQL repository.
-Codespaces
-To develop WarpSQL using GitHub Codespaces, follow these steps:
-
-Click on the "Code" button above.
-Select "Open with Codespaces" from the dropdown menu.
-Choose the appropriate Codespace configuration.
-Wait for the environment to be provisioned.
-Once the environment is ready, you can start working on the project.
-Make your desired changes or additions.
-Test your changes and ensure they meet the project's guidelines.
-Commit and push your changes to your forked repository.
-Create a pull request from your forked repository to the main WarpSQL repository.
-We welcome contributions from the community and appreciate your support in improving WarpSQL!
 
 ## Development with GitHub Codespaces
 
@@ -107,6 +76,12 @@ Choose the appropriate Codespace configuration.
 Wait for the environment to be provisioned.
 
 Once the environment is ready, you can start working on the project.
+
+Make your desired changes or additions.
+Test your changes and ensure they meet the project's guidelines.
+Commit and push your changes to your forked repository.
+Create a pull request from your forked repository to the main WarpSQL repository.
+We welcome contributions from the community and appreciate your support in improving WarpSQL!
 
 Install the project dependencies by running the following command in the terminal:
 
