@@ -52,7 +52,6 @@ By utilizing WarpSQL, you can benefit from the following:
 • Extensibility: While WarpSQL already supports a range of extensions, it aims to expand its offerings to include even more powerful tools in the future, such as ZomboDB, PLV8, and Pg Repack.
 Get started with WarpSQL today and experience the convenience of a comprehensive Postgres solution.
 
-
 ## Contribution
 
 You can contribute to the development of WarpSQL using both Gitpod and Codespaces. Follow the steps below to set up your development environment and make contributions:
@@ -61,8 +60,7 @@ You can contribute to the development of WarpSQL using both Gitpod and Codespace
 
 Click the "Open in Gitpod" button above or use the following link:[Open in Gitpod](https://gitpod.io/new/#https://github.com/ChakshuGautam/postgres-tsdb-vector-docker)
 
-[![Open in Gitpod](https://gitpod.io/button/icon.svg)](https://gitpod.io/#https://github.com/ChakshuGautam/postgres-tsdb-vector-docker)
-
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ChakshuGautam/postgres-tsdb-vector-docker)
 
 
 • Wait for the Gitpod environment to be created and initialized.
@@ -79,15 +77,10 @@ Click the "Open in Gitpod" button above or use the following link:[Open in Gitpo
 
 ## Development with GitHub Codespaces
 
-<p align="center">
-  <a href="https://github.com/features/codespaces">
-    <img src="https://img.shields.io/badge/GitHub-Codespaces-blue?logo=github" alt="GitHub Codespaces">
-  </a>
-</p>
-
-
-
 You can use GitHub Codespaces to develop this project in the cloud.
+
+[![GitHub Codespaces](https://img.shields.io/badge/GitHub-Codespaces-blue?logo=github)](https://github.com/features/codespaces)
+
 
 • Click on the "Code" button.
 
@@ -109,11 +102,8 @@ Install the project dependencies by running the following command in the termina
 
 ```pip install -r requirements.txt```
 
-## Ensure CI passes
+## Ensure CI passes ![](https://img.shields.io/badge/CI-Passing-brightgreen)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/CI-Passing-brightgreen" alt="CI Passing">
-</p>
 
 Before merging any contributions or changes, it's essential to ensure that the continuous integration (CI) tests pass successfully. CI helps maintain code quality standards and prevents the introduction of regressions. To ensure a smooth integration process, follow these steps:
 
@@ -145,4 +135,3 @@ To publish the WarpSQL project, follow the guidelines below:
 • Release notes: Prepare release notes for each new version, highlighting the changes, bug fixes, and new features included in the release. This helps users understand what to expect when upgrading to a new version.
 
 • Distribution and deployment: Specify how the project should be distributed or deployed. If there are specific packages, containers, or deployment configurations, provide relevant documentation or instructions.
-
