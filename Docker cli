@@ -50,3 +50,4 @@
    50  rm -rf websitye/
    51  mkdir website
    52  sudo su
+   53 sudo docker-compose.yml
